@@ -1,0 +1,28 @@
+# Makes sure illegal commands do not affect playing state, as intended.
+# Checks illegal moves, blocks, auto/manual, and seed do not affect player.
+java -ea ataxx.Main
+
+manual blue
+block d3
+block d5
+start
+a7-a6
+a6-a6
+block c4
+a1-a2
+a6-a5
+manual red
+auto blue
+a2-a3
+seed 9000
+dump
+@<===
+@<  r - - - - - b
+@<  r - - - - - -
+@<  r - - X - - -
+@<  - - - - - - -
+@<  b - - X - - -
+@<  b - - - - - -
+@<  b - - - - - r
+@<===
+quit

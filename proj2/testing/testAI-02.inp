@@ -1,0 +1,107 @@
+# Set up position with blocks this time. Again, Red should win within 5 moves.
+# Tried to find an optimal position where the AI will struggle to win.
+# Also checks that pass works as intended, and that AI will pass when needed.
+java -ea ataxx.Main
+
+block b4
+block c4
+block c3
+block d4
+auto red
+
+a7-a6
+a1-b1
+a6-a5
+b1-c1
+a5-a4
+c1-d1
+a4-b2
+d1-c2
+a1-a2
+d1-f1
+a2-b3
+c1-a3
+b1-c1
+a3-a4
+a6-b5
+f1-d1
+a6-b6
+c2-d2
+a7-b7
+c2-d3
+b6-d5
+d1-e1
+a5-b6
+d3-e2
+b6-c7
+e1-f1
+d5-f6
+e1-f2
+c7-d6
+e1-f3
+f6-f5
+f2-g4
+f6-g5
+f3-g3
+b5-c6
+g4-g6
+d6-f7
+f3-g4
+f6-e6
+d1-e1
+f6-e7
+e1-f2
+c6-d5
+e1-g2
+c6-d7
+g1-e1
+b7-d6
+e1-g1
+a6-b7
+g1-e1
+pass
+e2-g1
+pass
+g1-e2
+pass
+e1-g1
+pass
+g1-e1
+pass
+e1-g1
+pass
+g2-e1
+pass
+e1-g2
+pass
+g1-e1
+pass
+e1-g1
+pass
+g1-e1
+pass
+e1-g1
+pass
+g1-e1
+pass
+e2-g1
+pass
+g1-e2
+pass
+e1-g1
+pass
+g1-e1
+pass
+e1-g1
+pass
+g2-e1
+pass
+e1-g2
+pass
+g1-e1
+pass
+e1-g1
+
+start
+@red...Red wins\.
+quit

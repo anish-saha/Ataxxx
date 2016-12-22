@@ -1,0 +1,18 @@
+# Testing the load function.
+java -ea ataxx.Main
+
+a7-a6
+harambe
+g7-g6
+
+dump
+@<===
+@<  r - - - - - b
+@<  r - - - - - b
+@<  - - - - - - -
+@<  - - - - - - -
+@<  - - - - - - -
+@<  - - - - - - -
+@<  b - - - - - r
+@<===
+quit
