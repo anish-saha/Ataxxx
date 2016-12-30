@@ -5,6 +5,10 @@ the game very challenging. The GUI was implemented using
 the standard Java library 'Graphics'.
 Use the command java -ea ataxx.Main (optional: --display) to play this game! 
 
+=========================================
+
+In-Game Screenshots:
+
 ![Alt text](sampleAtaxxx.png)
 
 ![Alt text](sampleAtaxxxHelp.png)
