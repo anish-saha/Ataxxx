@@ -11,6 +11,13 @@ In-Game Screenshots:
 
 ![Alt text](sampleAtaxxx.png)
 
-![Alt text](sampleAtaxxxHelp.png)
+[Run the program with --display to play with the GUI]
 
 ![Alt text](sampleAtaxxxAI.png)
+
+[Without --display, the program will run in your terminal shell]
+
+![Alt text](sampleAtaxxxHelp.png)
+
+[All commands that can be used if running the game in terminal]
+
