@@ -2,8 +2,7 @@
 CS61B board game project with a user-friendly GUI and intelligent AI. 
 The AI was implemented through a recursive game tree to make 
 the game very challenging. The GUI was implemented using 
-the standard Java library 'Graphics'. Use 
-<br> `java -ea ataxx.Main --display` to play this game. 
+the standard Java library 'Graphics'. Use `java -ea ataxx.Main --display` to play this game. 
 
 =========================================
 
