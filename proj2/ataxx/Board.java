@@ -273,7 +273,7 @@ class Board extends Observable {
     }
 
     /** This is a function that returns all possible legal moves for a color.
-    @param who is the color that we are finiding all possible legal moves for.
+    @param who is the color that we are finding all possible legal moves for.
     @return the function returns an arraylist of all possible legal moves. */
     ArrayList<Move> legalMoves(PieceColor who) {
         ArrayList<Move> moves = new ArrayList<Move>();
